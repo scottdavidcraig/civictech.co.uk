@@ -1,0 +1,21 @@
+{
+  "name": "CivicTech",
+  "version": "0.1.0",
+  "authors": [
+    "Scott <scottdavidcraig@gmail.com>"
+  ],
+  "description": "Building better democracies",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "civictech.co.uk",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#~3.0.3"
+  }
+}
