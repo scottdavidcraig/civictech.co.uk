@@ -6,7 +6,9 @@ font-family: 'Ubuntu', sans-serif;
 
 }
 
-
+section {
+  border-top: 1px solid #ddd;
+}
 
 
 
