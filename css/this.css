@@ -3,6 +3,54 @@
 body {
 background-color: white;
 font-family: 'Ubuntu', sans-serif;
+}
+
+/* typography */
+
+p {
+color:#999 ;
+}
+
+/* link styles */
+
+/* unvisited link */
+a:link {
+    color: #1481e3;
+}
+
+/* visited link */
+a:visited {
+    color: #1857A6;
+}
+
+/* mouse over link */
+a:hover {
+    color: #1857A6;
+}
+
+/* selected link */
+a:active {
+    color: #1857A6;
+}
+
+
+
+
+
+#shape {
+      border-bottom: 3px solid #8AC06E;
+}
+
+nav{
+
+  padding: 0px 0 0px 0;
+  margin: 0 0 0 0;
+
+}
+
+header{
+  text-align: center;
+  padding: 60px 15px 150px 15px;
 
 }
 
@@ -12,7 +60,6 @@ section {
 
 
 
-/* typography */
 
 
 /* Button styles */
@@ -22,6 +69,7 @@ border: 1px solid #8AC06E;
 padding: 10px 15px;
 color: white;
 text-decoration: none;
+border-radius: 5px;
 
 }
 
@@ -29,11 +77,9 @@ text-decoration: none;
 
 background: #6eaf4c;
 color: #fff;
+border: 1px solid #6eaf4c;
+
 }
-
-
-
-
 
 
 /* footer */
@@ -42,7 +88,7 @@ footer{
   color: white;
   font-size: 17px;
   width: 100%;
-  padding: 100px 0 60px 0;
-
+  padding: 100px 15px 60px 15px;
+  l
 
 }
