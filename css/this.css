@@ -1,13 +1,35 @@
 /* Defaults */
 
-
 body {
 background-color: white;
 font-family: 'Ubuntu', sans-serif;
 
 }
 
+
+
+
+
 /* typography */
+
+
+/* Button styles */
+.button {
+background: #8AC06E;
+border: 1px solid #8AC06E;
+padding: 10px 15px;
+color: white;
+text-decoration: none;
+
+}
+
+.button:hover {
+
+background: #6eaf4c;
+color: #fff;
+}
+
+
 
 
 
