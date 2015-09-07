@@ -5,11 +5,78 @@ background-color: white;
 font-family: 'Ubuntu', sans-serif;
 }
 
+/* resets */
+
+ul, ol, li {
+margin: 0;
+padding: 0;
+text-decoration: none;
+}
+
+section {
+  border-top: 1px solid #ddd;
+}
+
 /* typography */
 
 p {
 color:#999 ;
 }
+
+/* Header Section */
+
+
+header{
+  text-align: center;
+  padding: 60px 15px 100px 15px;
+
+}
+
+nav{
+
+  padding: 0px 0 0px 0;
+  margin: 0 0 0 0;
+
+}
+
+.main-logo {
+  padding: 0px 15px;
+
+}
+
+
+/* Categories section */
+
+.categories{
+text-align: left;
+margin: 0 100px;
+}
+
+.categories-list {
+list-style: none;
+padding: 75px 0 75px 0;
+margin: 0 0 0 0;
+display:block;
+float:left;
+width:25%;
+
+}
+
+/* sites section */
+
+
+.sectiontitle {
+  padding: 0px 15px;
+}
+
+/* addsite section section */
+.addsite{
+padding: 25px 25px
+}
+
+
+
+
 
 /* link styles */
 
@@ -33,34 +100,9 @@ a:active {
     color: #1857A6;
 }
 
-
-
-
-
 #shape {
       border-bottom: 3px solid #8AC06E;
 }
-
-nav{
-
-  padding: 0px 0 0px 0;
-  margin: 0 0 0 0;
-
-}
-
-header{
-  text-align: center;
-  padding: 60px 15px 150px 15px;
-
-}
-
-section {
-  border-top: 1px solid #ddd;
-}
-
-
-
-
 
 /* Button styles */
 .button {
@@ -81,6 +123,11 @@ border: 1px solid #6eaf4c;
 
 }
 
+.addsite a:visited {
+
+      color: white;
+}
+
 
 /* footer */
 footer{
@@ -89,6 +136,17 @@ footer{
   font-size: 17px;
   width: 100%;
   padding: 100px 15px 60px 15px;
-  l
+  text-align: center;
 
 }
+
+/* ======== float clearfix ======= */
+
+.group::after {
+  content: "";
+  display: table;
+  clear:both;
+
+}
+
+/* ======== media Queries ======= */
