@@ -89,11 +89,25 @@ a{
 .sectiontitle {
   padding: 0px 15px;
 }
+.section-des {
+  color: #4B5658;
+}
 
 /* addsite section section */
 .addsite{
 padding: 25px 25px
 }
+
+.addsite h3 {
+  text-align: center;
+}
+
+.addsite p {
+text-align: center;
+margin-top: 25px;
+}
+
+
 
 
 
@@ -133,7 +147,6 @@ padding: 10px 15px;
 color: white;
 text-decoration: none;
 border-radius: 5px;
-
 }
 
 .button:hover {
@@ -144,9 +157,12 @@ border: 1px solid #6eaf4c;
 
 }
 
-.addsite a:visited {
+.button:visited {
+color: white;
+}
 
-      color: white;
+.button:link {
+color: white;
 }
 
 
