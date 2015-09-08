@@ -60,16 +60,22 @@ header{
     margin-bottom: 0px;
     margin-left: auto;
 }
+
+.categories-list {
+    list-style: none;
+    margin: 0px;
+    display:block;
+    list-style: outside none none;
+    }
+
+@media (min-width: 641px) {
   .categories-list {
-      list-style: none;
       padding: 75px 0 75px 0;
       margin: 0px;
-      display:block;
       float:left;
       width:25%;
-      list-style: outside none none;
       }
-
+}
 
 
 /* === sites section === */
