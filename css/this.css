@@ -1,170 +1,140 @@
-/* Defaults */
+/* Base Styles */
 
 body {
-background-color: white;
-font-family: 'Ubuntu', sans-serif;
-}
-
-/* resets */
+    background-color: white;
+    font-family: 'Ubuntu', sans-serif;
+  }
 
 ul, ol, li {
-margin: 0;
-padding: 0;
-text-decoration: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
 
 section {
-  border-top: 1px solid #ddd;
+    border-top: 1px solid #ddd;
 }
 
 /* typography */
-
+h3{
+    padding: 0 15px;
+}
 p {
-color:#999 ;
+    color:#999 ;
+    padding: 0px 15px;
+}
+li {
+    margin: 0 0 15px;
 }
 
-/* Header Section */
+/* === Nav  === */
 
+nav{
+    padding: 0px 0 0px 0;
+    margin: 0 0 0 0;
+}
+
+.main-logo {
+    padding: 0px 15px;
+}
+
+/* === Header Section === */
 
 header{
   text-align: center;
   padding: 60px 15px 100px 15px;
-
 }
 
-nav{
-
-  padding: 0px 0 0px 0;
-  margin: 0 0 0 0;
-
+.underline {
+      border-bottom: 3px solid #8AC06E;
 }
 
-.main-logo {
-  padding: 0px 15px;
-
-}
-
-
-/* Categories section */
+/* === Categories section === */
 
 .categories{
-text-align: left;
-max-width: 1024px;
-margin: 0 auto;
+    text-align: left;
+    max-width: 1024px;
+    margin: 0 auto;
     margin-top: 0px;
     margin-right: auto;
     margin-bottom: 0px;
     margin-left: auto;
 }
-
-.categories-list {
-list-style: none;
-padding: 75px 0 75px 0;
-margin: 0px;
-display:block;
-float:left;
-width:25%;
-list-style: outside none none;
-}
-
+  .categories-list {
+      list-style: none;
+      padding: 75px 0 75px 0;
+      margin: 0px;
+      display:block;
+      float:left;
+      width:25%;
+      list-style: outside none none;
+      }
 
 
-li {
-  margin: 0 0 15px;
-}
-p{
-  padding: 0px 15px
-}
 
-h3{ padding: 0 15px;
-
-
-}
-a{
- display: inline;
-}
-/* sites section */
+/* === sites section === */
 
 
 .sectiontitle {
-  padding: 0px 15px;
+      padding: 0px 15px;
 }
-.section-des {
-  color: #4B5658;
-}
+  .section-des {
+      color: #4B5658;
+  }
 
-/* addsite section section */
+/* === addsite section === */
 .addsite{
-padding: 25px 25px
+    padding: 25px 25px
 }
-
-.addsite h3 {
-  text-align: center;
-}
-
-.addsite p {
-text-align: center;
-margin-top: 25px;
-}
+  .addsite h3 {
+      text-align: center;
+  }
+  .addsite p {
+      text-align: center;
+      margin-top: 25px;
+  }
 
 
-
-
-
-
-
-/* link styles */
+/* === link styles === */
 
 /* unvisited link */
 a:link {
     color: #1481e3;
 }
-
 /* visited link */
 a:visited {
     color: #1857A6;
 }
-
 /* mouse over link */
 a:hover {
-    color: #1857A6;
+      color: #1857A6;
 }
-
 /* selected link */
 a:active {
-    color: #1857A6;
+      color: #1857A6;
 }
 
-#shape {
-      border-bottom: 3px solid #8AC06E;
-}
 
 /* Button styles */
 .button {
-background: #8AC06E;
-border: 1px solid #8AC06E;
-padding: 10px 15px;
-color: white;
-text-decoration: none;
-border-radius: 5px;
+    background: #8AC06E;
+    border: 1px solid #8AC06E;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
-
-.button:hover {
-
-background: #6eaf4c;
-color: #fff;
-border: 1px solid #6eaf4c;
-
-}
-
-.button:visited {
-color: white;
-}
-
-.button:link {
-color: white;
-}
-
+  .button:hover {
+        background: #6eaf4c;
+        color: #fff;
+        border: 1px solid #6eaf4c;
+  }
+  .button:visited {
+        color: white;
+  }
+  .button:link {
+        color: white;
+  }
 
 /* footer */
 footer{
