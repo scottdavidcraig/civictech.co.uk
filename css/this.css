@@ -1,6 +1,6 @@
 /* Base Styles */
 html {
-overflow-x: hidden;
+/*overflow-x: hidden;*/
 
 }
 
@@ -40,7 +40,7 @@ nav{
 }
 
 .main-logo {
-    padding: 0px 15px;
+    padding-left:15px;
 }
 
 /* === Header Section === */
@@ -69,8 +69,6 @@ header{
 .categories-list {
     list-style: none;
     margin: 0px;
-    display:block;
-    list-style: outside none none;
     }
 
 @media (min-width: 641px) {
@@ -111,7 +109,7 @@ padding-bottom: 25px
 
 
 .sectiontitle {
-      padding: 0px 15px;
+      padding: 0px px;
 }
   .section-des {
       color: #4B5658;
@@ -183,7 +181,6 @@ footer{
   background: #2e3234;
   color: white;
   font-size: 17px;
-  width: 100%;
   padding: 75px 15px 60px 15px;
   text-align: center;
 
