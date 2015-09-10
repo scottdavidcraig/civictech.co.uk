@@ -91,9 +91,12 @@ li > h3 {
 
 }
 
-section > h2 {
-background-color: #F09D06;
-
+.sectionheader {
+background-color: steelblue;
+background-size: cover;
+min-height: 150px;
+border-radius: 10px;
+color: white;
 }
 
 
