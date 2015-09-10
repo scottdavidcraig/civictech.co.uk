@@ -93,10 +93,16 @@ li > h3 {
 
 .sectionheader {
 background-color: steelblue;
-background-size: cover;
-min-height: 150px;
-border-radius: 10px;
+border-radius: 0;
 color: white;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 25px
+}
+
+.sectionheader p {
+
+  color: white;
 }
 
 
@@ -109,7 +115,14 @@ color: white;
 }
   .section-des {
       color: #4B5658;
+      font-size: 16px
   }
+
+ul:last-child {
+  margin-bottom: 55px;
+}
+
+
 
 /* === addsite section === */
 .addsite{
