@@ -10,9 +10,11 @@ body {
   }
 
 ul, ol, li {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     text-decoration: none;
+    max-width: 721px;
+    list-style-type: none;
 }
 
 section {
@@ -93,12 +95,13 @@ li > h3 {
 }
 
 .sectionheader {
-background-color: #252b33;
-border-radius: 0;
-color: white;
+  background-image: -webkit-linear-gradient(315deg, #1C5775, #614182);
+  background-image: linear-gradient(135deg, #1C5775, #614182);border-radius: 0;
+color: lightgrey;
 text-align: center;
 padding-top: 10px;
-padding-bottom: 25px
+padding-bottom: 25px;
+margin-bottom: 55px;
 }
 
 .sectionheader p {
@@ -117,18 +120,16 @@ padding-bottom: 25px
 }
   .section-des {
       color: #4B5658;
-      font-size: 16px
+      font-size: 16px;
   }
 
 ul:last-child {
   margin-bottom: 55px;
 }
 
-.max-width {
 
-  max-width: 1024px;
 
-}
+
 
 /* === addsite section === */
 .addsite{
