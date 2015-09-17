@@ -220,5 +220,41 @@ footer{
       width:33.3%;
       }
 
+.card {
+
+  max-width: 100%;
+
+  content: "";
+  display: table;
+  clear:both;
+}
+
+.card li   {
+    width: 18%;
+    display: block;
+    float: left;
+    margin-right: 0.75%;
+    margin-left: 0.75%;
+    text-align: center;
+    padding: 15px 10px 15px 10px;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    position: relative;
+    min-height: 270px;
+    max-height: 270px;
+    margin-top: 35px;
+    clear: right;
+    overflow-y: scroll;
+}
+
+.logo {
+  display: inline-block;
+  position: relative;
+  max-width: 120px;
+  min-height: 47px;
+  overflow: hidden;
+  margin-top: 15px;
+
+}
 
 }
